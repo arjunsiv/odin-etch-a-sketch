@@ -2,11 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
+        <style>
+            .square {
+                border: 0.1px solid;
+                border-color: rgb(160,160,255);
+                flex : 1 ;
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+            }
+        </style>
     </head>
     <body>
+        <button onclick="handleOnclick()">Click to change the grid size</button>
         <div class="container">
-            
+
         </div>
     </body>
 </html>
